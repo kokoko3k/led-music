@@ -1,0 +1,6 @@
+"Visualize" what you're hearing on the led strip.
+ses pulseaudio to capture and ffmpeg to create the visualization.
+Script is intended to feed hypergrabgb.
+
+Example:
+  hypergrabgb.gambas -x :0.0 -e 16 -d 9 -q -z $SCRIPT_DIR/led-music.sh
